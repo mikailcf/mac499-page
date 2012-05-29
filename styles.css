@@ -1,44 +1,80 @@
 body {
-   background-color: #e8eae8;
-   color: #5d665b;
-   margin: 50px;
-   font-family: Georgia, "Times New Roman", Times, serif;
-   font-size: medium;
-   line-height: 1.8em;
+    background-color: #e8eae8;
+    color: #5d665b;
+    margin: 20px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: medium;
+/*    line-height: 1.8em;*/
 }
 p {
-   text-indent: 3em;
+    text-indent: 3em;
 }
 h3 {
-   color:#966b72; 
-   font-family:Georgia,"Times New Roman",Times,serif;
-   letter-spacing: 0.1em;
+    color: #568;
+    font-size: 1.5em;
+/*    letter-spacing: 0.1em;*/
+}
+.h {
+/*    text-decoration: none;*/
+    font-weight: bold;
+/*    color: #568;*/
+}
+.header {
+/*    text-decoration: none;*/
+    font-size: 1.2em;
+    font-family: Arial;
+    font-weight: bold;
+/*    color: #568;*/
 }
 abbr {
-   color:#966b72;
-   letter-spacing: 0.3em;
-   word-spacing: 0.5em;
+    color:#966b72;
+    letter-spacing: 0.3em;
+    word-spacing: 0.5em;
+}
+.top {
+    text-align: center;
+    font-family: Arial;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+/*    top: 250px;*/
+/*    color:#966b00;*/
+    width: 50em;
+/*    padding: 1em;*/
+/*    border: dashed;*/
 }
 .left {
 /*            position: absolute;*/
 /*            top: 250px;*/
-   float: left;
-   color:#966b00;
-   width: 30em;
-   padding: 0;
-   border: dashed;
+    float: left;
+    color:#966b00;
+    width: 30em;
+    padding: 0;
+    border: dashed;
 }
 .right {
 /*            position: absolute;*/
 /*            top: 250px;*/
-   margin-left: 10px;
-   float: left;
-   color:#960072;
-   width: 30em;
-   padding: 0;
-   border: dashed;
+    margin-left: 10px;
+    float: left;
+    color:#960072;
+    width: 30em;
+    padding: 0;
+    border: dashed;
 }
-.t {
-   letter-spacing: 0.3em;
-   word-spacing: 0.5em;
+
+a:hover { background: #FFF }
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color:#966b72;
+    margin: 2px;
+    padding: 5px;
+}
+
+.vis {
+    font-weight: bold;
+    margin: 2px;
+    padding: 5px;
 }
