@@ -1,0 +1,44 @@
+body {
+   background-color: #e8eae8;
+   color: #5d665b;
+   margin: 50px;
+   font-family: Georgia, "Times New Roman", Times, serif;
+   font-size: medium;
+   line-height: 1.8em;
+}
+p {
+   text-indent: 3em;
+}
+h3 {
+   color:#966b72; 
+   font-family:Georgia,"Times New Roman",Times,serif;
+   letter-spacing: 0.1em;
+}
+abbr {
+   color:#966b72;
+   letter-spacing: 0.3em;
+   word-spacing: 0.5em;
+}
+.left {
+/*            position: absolute;*/
+/*            top: 250px;*/
+   float: left;
+   color:#966b00;
+   width: 30em;
+   padding: 0;
+   border: dashed;
+}
+.right {
+/*            position: absolute;*/
+/*            top: 250px;*/
+   margin-left: 10px;
+   float: left;
+   color:#960072;
+   width: 30em;
+   padding: 0;
+   border: dashed;
+}
+.t {
+   letter-spacing: 0.3em;
+   word-spacing: 0.5em;
+}
