@@ -2,12 +2,13 @@ body {
     background-color: #e8eae8;
     color: #5d665b;
     margin: 20px;
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-family: Arial;
     font-size: medium;
+    text-align: justify;
 /*    line-height: 1.8em;*/
 }
 p {
-    text-indent: 3em;
+    text-indent: 2em;
 }
 h3 {
     color: #568;
@@ -64,8 +65,8 @@ abbr {
     border: dashed;
 }
 
-a:hover { background: #FFF }
-a {
+#menu a:hover { background: #FFF }
+#menu a {
     text-decoration: none;
     font-weight: bold;
     color:#966b72;
