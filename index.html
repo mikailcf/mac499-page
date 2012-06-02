@@ -26,13 +26,16 @@
         <div class="center">
             <hr>
             <span class="date">4 de junho de 2012</span><br><br>
+            
             <span class="header">Resumo</span>
             <p>O problema da Satisfatibilidade (também conhecido apenas por SAT) é um problema clássico na área de Ciência da Computação. Ele pertence à classe dos problemas NP-completos e se constitui em decidir se é possível ou não que uma fórmula booleana seja verdadeira. Isso é, se existe uma atribuição de valores para as variáveis booleanas constituintes dessa fórmula que a satisfaça.</p>
             <p>Uma extensão desse problema é o problema da Satisfatibilidade Probabilística (PSAT). Uma instância do PSAT é semelhante a uma instância do SAT, com a adição de que para cada variável booleana é associada uma probabilidade dela ser verdadeira ou não. Sua solução é uma decisão sobre a consistência desta atribuição de probabilidades para que a fórmula em questão seja satisfeita.</p>
-            <p>Glauber de Bona propôs dois algoritmos para solução desse problema [1] e desenvolveu dois softwares livres que os implementam [2] [3]. Ambos os softwares são por sua vez baseados no uso externo do software livre zChaff [4] para a solução de instâncias do SAT necessárias para a solução da instância original do PSAT.</p>
+            <p>Glauber de Bona propôs dois algoritmos para solução desse problema [1] e desenvolveu dois softwares livres que os implementam [2] [3]. Ambos os softwares são por sua vez baseados no uso do software livre zChaff [4] para a solução de instâncias do SAT necessárias para a solução da instância original do PSAT.</p>
+            
             <br><span class="header">Objetivo</span>
             <p>O objetivo desse trabalho é refinar o pacote de softwares livres disponíveis mencionados para resolver o PSAT, tanto para obter um melhor desempenho quanto para uma mais fácil distribuição do pacote.<p/>
-            <p>Primeiramente será trocado o uso externo do zChaff pelo uso externo do MiniSat [5] (software livre que também resolve instâncias do SAT) e logo em seguida o próprio código do MiniSat usado para resolver o SAT será incluso tanto no PSATtoSAT e no PSATColGen para melhorar sua performance e para torná-los autocontidos.</p>
+            <p>Primeiramente será trocado o uso do zChaff pelo uso do MiniSat [5] (software livre que também resolve instâncias do SAT) e logo em seguida o próprio código do MiniSat usado para resolver o SAT será incluso tanto no PSATtoSAT quanto no PSATColGen para melhora de performance e para torná-los autocontidos.</p>
+            
             <br><span class="header">Atividades já realizadas</span><br>
             <ul>
                 <li> Estudo do código do PSATtoSAT
@@ -41,6 +44,7 @@
                 <li> Integração do código do MiniSat ao PSATtoSAT
                 <li> Início dos testes comparando as versões do PSATtoSAT
             </ul>
+            
             <br><span class="header">Cronograma</span><br>
             <br>
             <table id="schedule">
@@ -92,7 +96,24 @@
                 </tr>
             </table>
             <br>
+            
             <br><span class="header">Estrutura Esperada da Monografia</span><br>
+            <ul>
+                <li><b>Parte Técnica</b>
+                <ol>
+                    <li> Introdução
+                    <li> Descrição dos problemas
+                    <li> Descrição dos testes
+                    <li> Análise dos resultados
+                    <li> Conclusão
+                </ol>
+                <li><b>Parte Subjetiva</b>
+                <ol>
+                    <li> Desafios e frustrações encontradas
+                    <li> Papel das matérias do curso de Ciência da Computação no desenvolvimento do trabalho
+                </ol>
+            </ul>
+            
             <br><span class="header">Referências</span>
             <ol>
                 <li>FINGER, M. ; DE BONA, G. . Probabilistic Satisfiability: Logic-Based Algorithms and Phase Transition. In: IJCAI, 2011, Barcelona. Proceedings of the 22nd International Joint Conference on Artificial Intelligence, 2011, 2011. p. 528-533.
