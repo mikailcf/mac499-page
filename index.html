@@ -29,7 +29,7 @@
             <p>Uma extensão desse problema é o problema da Satisfatibilidade Probilística (PSAT). Uma instância do PSAT é semelhante a uma instância do SAT, com a adição de que para cada variável booleana é associada uma probabilidade dela ser verdadeira ou não. Sua solução é uma decisão sobre a consistência desta atribuição de probabilidades para que a fórmula em questão seja satisfeita.</p>
             <p>Glauber de Bona propôs dois algoritmos para solução desse problema [1] e desenvolveu dois softwares livres que os implementam [2] [3]. Ambos os softwares são por sua vez baseados no software livre zChaff [4] para a solução de instâncias do SAT necessárias para a solução da instância original do PSAT.</p>
             <span class="header">Objetivo</span><br>
-            <p>O objetivo desse trabalho é refinar o pacote de softwares livre disponíveis mencionados para resolver o PSAT, tanto para obter um melhor desempenho quanto para uma mais fácil distribuição do pacote.<p/>
+            <p>O objetivo desse trabalho é refinar o pacote de softwares livres disponíveis mencionados para resolver o PSAT, tanto para obter um melhor desempenho quanto para uma mais fácil distribuição do pacote.<p/>
             <p>Primeiramente será trocado o uso externo do zChaff pelo uso externo do MiniSat [5] (software livre que também resolve instâncias do SAT) e logo em seguida o próprio código do MiniSat usado para resolver o SAT será incluso tanto no PSATtoSAT e no PSATColGen.</p>
             <span class="header">Atividades já Realizadas</span><br>
             <ul>
