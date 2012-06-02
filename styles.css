@@ -5,7 +5,6 @@ body {
     font-family: Arial;
     font-size: medium;
     text-align: justify;
-/*    line-height: 1.8em;*/
 }
 p {
     text-indent: 2em;
@@ -13,24 +12,18 @@ p {
 h3 {
     color: #568;
     font-size: 1.5em;
-/*    letter-spacing: 0.1em;*/
+}
+.date {
+    color: #aaaaaa;
+    font-size: medium;
 }
 .h {
-/*    text-decoration: none;*/
     font-weight: bold;
-/*    color: #568;*/
 }
 .header {
-/*    text-decoration: none;*/
     font-size: 1.2em;
     font-family: Arial;
     font-weight: bold;
-/*    color: #568;*/
-}
-abbr {
-    color:#966b72;
-    letter-spacing: 0.3em;
-    word-spacing: 0.5em;
 }
 .top {
     text-align: center;
@@ -39,30 +32,13 @@ abbr {
 .center {
     margin-left: auto;
     margin-right: auto;
-/*    top: 250px;*/
-/*    color:#966b00;*/
     width: 50em;
-/*    padding: 1em;*/
-/*    border: dashed;*/
 }
-.left {
-/*            position: absolute;*/
-/*            top: 250px;*/
-    float: left;
-    color:#966b00;
-    width: 30em;
-    padding: 0;
-    border: dashed;
-}
-.right {
-/*            position: absolute;*/
-/*            top: 250px;*/
-    margin-left: 10px;
-    float: left;
-    color:#960072;
-    width: 30em;
-    padding: 0;
-    border: dashed;
+
+.vis {
+    font-weight: bold;
+    margin: 2px;
+    padding: 5px;
 }
 
 #menu a:hover { background: #FFF }
@@ -74,8 +50,12 @@ abbr {
     padding: 5px;
 }
 
-.vis {
-    font-weight: bold;
-    margin: 2px;
-    padding: 5px;
+#schedule {width: 800px}
+#schedule thead {background-color: #96B8CB}
+#schedule tr {margin: 0}
+#schedule td, #schedule th {
+  border: 1px solid #777;
+  padding: 3px;
+  text-align: center;
 }
+#schedule tr td:first-child {text-align: left}

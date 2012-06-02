@@ -23,13 +23,73 @@
 
         <div class="center">
             <hr>
+            <span class="date">4 de junho de 2012</span><br><br>
             <span class="header">Resumo</span>
             <p>O problema da Satisfatibilidade (também conhecido apenas por SAT) é um problema clássico na área de Ciência da Computação. Ele pertence à classe dos problemas NP-completos e se constitui em decidir se é possível ou não que uma fórmula booleana seja verdadeira. Isso é, se existe uma atribuição de valores para as variáveis booleanas constituintes dessa fórmula que a satisfaça.</p>
-            <p>Uma extensão desse problema é o problema da Satisfatibilidade Probilística (PSAT). Uma instância do PSAT é semelhante a uma instância do SAT,  </p>
+            <p>Uma extensão desse problema é o problema da Satisfatibilidade Probilística (PSAT). Uma instância do PSAT é semelhante a uma instância do SAT, com a adição de que para cada variável booleana é associada uma probabilidade dela ser verdadeira ou não. Sua solução é uma decisão sobre a consistência desta atribuição de probabilidades para que a fórmula em questão seja satisfeita.</p>
             <p>Glauber de Bona propôs dois algoritmos para solução desse problema [1] e desenvolveu dois softwares livres que os implementam [2] [3]. Ambos os softwares são por sua vez baseados no software livre zChaff [4] para a solução de instâncias do SAT necessárias para a solução da instância original do PSAT.</p>
             <span class="header">Objetivo</span><br>
-            <span class="header">Atividades já Realizadas (01/06/2012)</span><br>
+            <p>O objetivo desse trabalho é refinar o pacote de softwares livre disponíveis mencionados para resolver o PSAT, tanto para obter um melhor desempenho quanto para uma mais fácil distribuição do pacote.<p/>
+            <p>Primeiramente será trocado o uso externo do zChaff pelo uso externo do MiniSat [5] (software livre que também resolve instâncias do SAT) e logo em seguida o próprio código do MiniSat usado para resolver o SAT será incluso tanto no PSATtoSAT e no PSATColGen.</p>
+            <span class="header">Atividades já Realizadas</span><br>
+            <ul>
+                <li> Análise do código do PSATtoSAT
+                <li> Troca do zChaff pelo MiniSat (uso externo) no PSATtoSAT
+                <li> Análise do código do MiniSat
+                <li> Integração do código do MiniSat ao PSATtoSAT
+                <li> Início dos testes comparando as versões do PSATtoSAT
+            </ul>
             <span class="header">Cronograma</span><br>
+            <br>
+            <table id="schedule">
+                <thead>
+                    <th>Atividade</th>
+                    <th>Jun</th>
+                    <th>Jul</th>
+                    <th>Ago</th>
+                    <th>Set</th>
+                    <th>Out</th>
+                    <th>Nov</th>
+                    <th>Dez</th>
+                </thead>
+                <tr>
+                    <td>Troca do zChaff pelo MiniSat (uso externo) no PSATColGen</td>
+                    <td>x</td><td></td><td></td><td></td><td></td><td></td><td></td>
+                </tr>
+                <tr>
+                    <td>Integração do código do MiniSat ao PSATColGen</td>
+                    <td>x</td><td></td><td></td><td></td><td></td><td></td><td></td>
+                </tr>
+                <tr>
+                    <td>Início dos testes comparando as versões do PSATColGen</td>
+                    <td>x</td><td></td><td></td><td></td><td></td><td></td><td></td>
+                </tr>
+                <tr>
+                    <td>Testes exaustivos em cima de todas as versões dos softwares</td>
+                    <td>x</td><td>x</td><td></td><td></td><td></td><td></td><td></td>
+                </tr>
+                <tr>
+                    <td>Análise dos resultados obtidos e comparação de performance</td>
+                    <td></td><td>x</td><td>x</td><td></td><td></td><td></td><td></td>
+                </tr>
+                <tr>
+                    <td>Finalização e atualização do código disponível</td>
+                    <td></td><td></td><td>x</td><td>x</td><td>x</td><td></td><td></td>
+                </tr>
+                <tr>
+                    <td>Monografia</td>
+                    <td></td><td></td><td>x</td><td>x</td><td>x</td><td>x</td><td>x</td>
+                </tr>
+                <tr>
+                    <td>Pôster</td>
+                    <td></td><td></td><td></td><td></td><td></td><td>x</td><td></td>
+                </tr>
+                <tr>
+                    <td>Apresentação</td>
+                    <td></td><td></td><td></td><td></td><td></td><td>x</td><td></td>
+                </tr>
+            </table>
+            <br>
             <span class="header">Estrutura Esperada</span><br>
             <span class="header">Referências</span>
             <ol>
@@ -37,6 +97,7 @@
                 <li><a href="http://sourceforge.net/projects/psat/files/PSATtoSAT/">PSTAtoSAT</a>
                 <li><a href="http://sourceforge.net/projects/psat/files/PsatColGen/">PSATColGen</a>
                 <li><a href="http://www.princeton.edu/~chaff/zchaff.html">zChaff</a>
+                <li><a href="http://minisat.se/">MiniSat</a>
             </ol>
         </div>
     </body>
