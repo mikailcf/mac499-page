@@ -47,6 +47,13 @@ h3 {
     padding: 5px;
 }
 
+a {
+    /*text-decoration: none;*/
+    color: #568;
+    /*margin: 2px;*/
+    /*padding: 5px;*/
+}
+
 #schedule {width: 800px}
 #schedule thead {background-color: #96B8CB}
 #schedule tr {margin: 0}
